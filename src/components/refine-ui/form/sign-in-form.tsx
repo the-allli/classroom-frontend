@@ -142,12 +142,6 @@ export const SignInForm = () => {
               >
                 {isLoggingIn ? "Signing in..." : "Sign in"}
               </Button>
-
-              <div className="split">
-                <Separator />
-                <span>or</span>
-                <Separator />
-              </div>
             </form>
           </Form>
         </CardContent>
